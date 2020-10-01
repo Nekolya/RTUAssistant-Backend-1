@@ -3,7 +3,6 @@ from flask import Flask, flash, request, redirect, url_for, session, jsonify, re
 import requests
 import jwt
 from os import environ 
-from . import get_user_by_pk, user_login
 
 
 SECRET = environ.get('SECRET')
